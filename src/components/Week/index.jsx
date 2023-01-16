@@ -3,8 +3,8 @@ import './Week.css';
 
 function Week({weekTask, days}) {
   return (
-    <div className='Week' style={weekTask && {borderColor: "orange"}}>
-      {days.map(day => day)}
+    <div className='Week' >
+      {days.map(day => "**")}
     </div>
   )
 }

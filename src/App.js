@@ -1,6 +1,6 @@
 import './App.css';
 import Day from "./components/Day";
-import Week from './components/Week';
+import Week from "./components/Week";
 
 const ATTRIBUTS = {
   jobAM: {color: "cyan"},
@@ -30,7 +30,7 @@ function App() {
       <Day attribut={ATTRIBUTS.jobAM} />
       <Day attribut={ATTRIBUTS.jobPM} />
       <h3>Week</h3>
-      <Week weekTask={true} days={[<Day />, <Day />,<Day />,<Day />,<Day />]}/>
+      <Week days={[]} />
       <Week />
       <h3>Month</h3>
       <h3>Year</h3>

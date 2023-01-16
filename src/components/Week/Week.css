@@ -1,0 +1,9 @@
+.Week {
+    background-color: pink;
+    padding: 8px;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+}

@@ -1,0 +1,26 @@
+.Month {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.monthName {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.weeks {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}

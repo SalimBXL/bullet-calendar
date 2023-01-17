@@ -22,26 +22,27 @@ const ATTRIBUTS = {
 function App() {
 
   const w0 = <Week days={[
-    <Day attribut={ATTRIBUTS.absenceConfirmed}/>,
-    <Day attribut={ATTRIBUTS.absenceAnnAsked} />,
-    <Day />
-  ]} />
-  const w1 = <Week days={[
-    <Day attribut={ATTRIBUTS.absenceConfirmed}/>,
-    <Day attribut={ATTRIBUTS.absenceAnnAsked} />,
-    <Day attribut={ATTRIBUTS.empty} />,
-    <Day attribut={ATTRIBUTS.mission} />,
-    <Day attribut={ATTRIBUTS.jobAM} />,
+    <Day/>,
     <Day />,
     <Day />
   ]} />
-  const w2 = <Week weekTask={true} days={[
-    <Day attribut={ATTRIBUTS.absenceConfirmed} />,
-    <Day attribut={ATTRIBUTS.absenceAnnAsked} />,
-    <Day attribut={ATTRIBUTS.empty} />,
-    <Day attribut={ATTRIBUTS.mission} />,
-    <Day attribut={ATTRIBUTS.jobAM} />,
-    <Day />,<Day />
+  const w1 = <Week days={[
+    <Day />,
+    <Day />,
+    <Day />,
+    <Day />,
+    <Day />,
+    <Day />,
+    <Day />
+  ]} />
+  const w2 = <Week days={[
+    <Day />,
+    <Day />,
+    <Day />,
+    <Day />,
+    <Day />,
+    <Day />,
+    <Day />
   ]} />
 
   const month = <Month weeks={[w0, w1, w2, w2, w1]} monthName="January" />;
@@ -50,7 +51,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>TEST</h1>
       <Year months={[
         month, month2, month3,
         month2, month2, month2,
